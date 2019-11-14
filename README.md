@@ -104,9 +104,9 @@ text          Seed/Context sequence.Format: 'space separated tokens' string
 Trained models of all three social platforms are stored in ```lm_models/<model_technique>/<social_type>```.  Here "<model_technique>" is the type of technology used to build language model. If model is N-gram based then its value is ```ngram_models``` else ```lstm_models```. "<social_type>" is the directory name for specific social media platform which is as follows: ```tw``` for twitter, ```insta```for instagram and ```fb``` for facebook.
 Each model has its own output format like model inside "ngram_models" are in ```.pkl``` where as models in "lstm_models" are in ```.hdf5``` format.
 
-```NOTE: This git repository don't contain heavy files because of file-size limitation (max 100 MB is allowed) by github and will be available from below mentioned link. All the N-gram based models and training data of of all social platforms are present in "bzip2" compressed form (.bz2). Originally they all were in pickled form (.pkl)
+```NOTE:```
+This git repository don't contain heavy files because of file-size limitation (max 100 MB is allowed) by github and will be available from below mentioned link. All the N-gram based models and training data of of all social platforms are present in "bzip2" compressed form (.bz2). Originally they all were in pickled form (.pkl)
         
-
+```LINK:``` 
 https://iiitaphyd-my.sharepoint.com/:f:/g/personal/priyansh_agrawal_research_iiit_ac_in/EnV74VjDxMNNohD1LJ1QE5oB8eHv39TGAAhSAIXA1nC5mQ?e=CMuQyv
-```
 
